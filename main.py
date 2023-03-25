@@ -33,11 +33,9 @@ def text_handler(message):
         
         else:
             if in_russian:
-                msg = get_weather_ru(message.text)
-                bot.send_message(message.chat.id, msg)
+                bot.send_message(message.chat.id, get_weather_ru(message.text))
             elif not in_russian:
-                msg = get_weather_en(message.text)
-                bot.send_message(message.chat.id, msg)
+                bot.send_message(message.chat.id, get_weather_en(message.text))
                 
 while True:
     try:
