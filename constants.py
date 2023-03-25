@@ -1,0 +1,3 @@
+TOKEN = '<BOT_FATHER_API_KEY>'
+OWM_TOKEN = '<OPEN_WEATHER_MAP_API_KEY>'
+in_russian = False
